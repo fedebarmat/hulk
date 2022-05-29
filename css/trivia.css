@@ -1,0 +1,198 @@
+@font-face{
+   font-family: "DIN Next HC";
+   src: url("../fonts/DINNextLTPro-HeavyCondensed.ttf");
+ }
+
+
+*{
+   font-family: "DIN Next HC";
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+ }
+
+body{
+	 margin: 0;
+	 background-color: #1a5127;
+ }
+
+main{
+   width: 1199px;
+   height: 800px;
+   margin-left: auto;
+   margin-right: auto;
+   box-shadow: 2px 0px 40px #000;
+ }
+
+header{
+	 display: flex;
+	 width: 1199px;
+	 height: 100px;
+	 background-color: #000;
+	 justify-content: space-between;
+	 align-items: center;
+	 padding: 10px;
+ }
+
+.logo-nombre{
+	 margin-top: 15px;
+	 margin-left: 5px;
+	 display: flex;
+	 align-items: center;
+ }
+
+.personaje{
+	display: flex;
+	justify-content: center;
+	color: #1a5127;
+	margin-left: 5px;
+	font-size: 22px;
+}
+
+section{
+	 width: 1199px;
+	 height: 650px;
+ }
+
+form{
+	width: 750px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 5px;
+}
+
+
+.cajas{
+	display: inline-block;
+	width: 100%;
+	height: 40px;
+	background-color: transparent;
+	border-color: black;
+	border-left-color: transparent;
+	border-top-color: transparent;
+	border-right-color: transparent;
+	border-width: 2px;
+	border-style: solid;
+	font-size: 18px;
+	margin-bottom: 16px;
+
+}
+
+.btn{
+	display: inline-block;
+	font-size: 20px;
+	width: 30%;
+	height: 40px;
+	margin-top: 20px;
+	background-color: #000;
+	border-width: 3px;
+	border-color: #000;
+	border-style: solid;
+	border-radius: 8px;
+	color: #1a5127;
+}
+
+.btn:hover {
+	background: #1a5127;
+	color: #000;
+
+}
+
+label::selection{
+	background-color: #fff;
+	color: #1a5127;
+}
+
+
+.pregunta{
+	color: #000;
+	font-size: 20px;
+}
+
+
+.pregunta7_respuestas{
+	color: #000;
+	font-size: 20px;
+	margin-top: 10px;
+}
+
+.pregunta7_respuestas::selection{
+	background-color: #fff;
+	color: #1a5127;
+}
+
+.titulo {
+  color: #000;
+  text-align: center;
+  font-size: 32px;
+  margin-left: 15px;
+}
+
+h2::selection{
+	background-color: #fff;
+	color: #1a5127;
+}
+
+footer{
+	 width: 1199px;
+	 height: 50px;
+	 background-color: #000;
+	 display: flex;
+	 justify-content: space-between;
+ }
+
+.ucesmarvel{
+	 display: flex;
+	 align-items: center;
+	 justify-content: left;
+	 margin-left: 15px;
+ }
+
+.disneyplus{
+	 display: flex;
+	 align-items: center;
+	 justify-content: right;
+	 margin-right: 15px;
+ }
+
+.marvel{
+	margin-left: 10px;
+}
+
+.nombre{
+	font-size: 14px;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.nombre::selection {
+	background-color: #fff;
+	color: #1a5127;
+}
+
+nav a{
+   text-decoration:none;
+   color:inherit;
+   font-size:20px;
+   font-weight: 400;
+   align-items: center;
+ } 
+
+nav li{
+   display: flex;
+   display:inline-block;
+   width:110px;
+	padding:10px;
+   margin-right: 5px;
+   background-color:#1a5127;
+   border-radius: 8px;
+   text-align:center;
+   color:#000;
+ }
+
+nav li:hover{
+   background-color:#000;
+   color:#1a5127;}
+ }
